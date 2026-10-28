@@ -22,7 +22,7 @@ function tentar() {
             res.innerHTML = 'Você acertou!!'
         }
         if(tentativas == -1){
-            window.alert('Suas tentativas acabaram :( || Dê um refresh na página e tente novamente com outro número!')
+            window.alert(`suas tentativas acabaram, o número secreto era ${Rand}, dê um refresh na página para tentar novamente.`)
         }
     }
 }
